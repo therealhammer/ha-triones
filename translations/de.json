@@ -1,0 +1,35 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "mac": "Bluetooth MAC Adresse",
+                    "name": "Name"
+                },
+                "title": "Wählen Sie ein Triones Licht. Stellen Sie sicher, dass das Licht im Sichtfeld ist, um die Verbindung zu validieren."
+            },
+            "validate": {
+                "data": {
+                    "retry": "Erneuter Validierungsversuch der Verbindung?",
+                    "flicker": "Hat das Triones Licht geblinkt?"
+                },
+                "title": "Validiere Triones Licht Verbindung."
+            },
+            "manual": {
+                "data": {
+                    "mac": "Bluetooth MAC Adresse",
+                    "name": "Name"
+                },
+                "title": "Bluetooth MAC Adresse eingeben"
+            }
+        },
+        "error": {
+            "connect": "Konnte keine Verbingung zu Triones Licht herstellen"
+        },
+        "abort": {
+            "cannot_validate": "Konnte Triones Licht nicht validieren",
+            "cannot_connect": "Konnte keine Verbingung zu Triones Licht herstellen"
+        }
+    },
+    "title": "Triones"
+}
